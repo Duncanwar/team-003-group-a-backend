@@ -4,6 +4,7 @@ node_js:
 -"14"
 -"13"
 -"12"
+-"13.14.0"
  
 
 install: npm install
