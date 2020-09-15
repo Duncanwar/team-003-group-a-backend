@@ -33,6 +33,7 @@ passport.use(
     },
     function (accessToken, refreshToken, profile, done) {
       const { email, first_name, last_name } = profile._json;
+      console.log(profile);
       const userData = {
         email: email,
         firstName: first_name,
